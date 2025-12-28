@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+h1 {
+            text-align: center;
+        }
+
+        .middle {
+            margin: 20px auto; /* Centers the table on the page */
+            border: 1px solid black;
+            border-spacing: 1px;
+        }
+
+        .middle td, .middle th {
+            border: 1px solid black;
+            padding: 1px;
+            min-width: 50px;
+            height: 30px;
+        }
+
+        /* Specific Classes */
+        .center {
+            text-align: center;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+        .green {
+            background-color: green;
+            color: white;
+        }
+
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+
+        /* Image sizing */
+        #t-image img {
+            max-width: 150px;
+            display: block;
+            margin: auto;
+        }
